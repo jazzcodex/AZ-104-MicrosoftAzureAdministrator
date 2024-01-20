@@ -10,7 +10,7 @@ jobs:
       image: 'microsoftlearning/markdown-build:latest'
     steps:
       - task: Bash@3
-        displayName: 'Build Content'
+        displayName: 'Build Contents'
         inputs:
           targetType: inline
           script: |
